@@ -10,7 +10,6 @@ The user of this application should be able to:
 
 * Filter the employees by at least one category.
 
-
 ## Screenshot
 
    ![Result](./direct.gif)
