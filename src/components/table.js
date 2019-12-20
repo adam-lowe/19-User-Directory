@@ -3,7 +3,7 @@ import BootstrapTable from 'react-bootstrap-table-next';
 import filterFactory, { textFilter } from 'react-bootstrap-table2-filter';
 import empArr from "./empArr";
 
-const numberOfEmploy = 32
+const numberOfEmploy = 42;
 
 const branches = [
     "Sales",
