@@ -2,6 +2,28 @@ import React from 'react';
 import BootstrapTable from 'react-bootstrap-table-next';
 import filterFactory, { textFilter } from 'react-bootstrap-table2-filter';
 
+const empArr = [            
+    "Karen Drakkie",
+    "John Hertz",
+    "Cody Parker",
+    "Conrad Frazier",
+    "Sophia Wright",
+    "Debbie Stewart",
+    "Austin Bridges",
+    "Jenny Robinson",
+    "Donald Henderson",
+    "Tracy Lowe",
+    "Crystal Swarz",
+    "Keli Richards"]
+
+const branches = [
+    "Sales",
+    "Accounting",
+    "Legal",
+    "Marketing",
+    "Operations",
+    "Human Resources"
+]
 const products = [
 {
   id: Math.floor(Math.random()*899999)+100000,
