@@ -13,3 +13,9 @@ The user of this application should be able to:
 ## Screenshot
 
    ![Result](./direct.gif)
+
+## Links
+
+    [Deployed App](https://fast-garden-23796.herokuapp.com/)
+
+    [Github Repo](https://github.com/adam-lowe/19-User-Directory)
