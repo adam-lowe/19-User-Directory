@@ -16,6 +16,6 @@ The user of this application should be able to:
 
 ## Links
 
-[Deployed App](https://fast-garden-23796.herokuapp.com/)
+[Deployed App](https://vigorous-swartz-383e4e.netlify.com/)
 
 [Github Repo](https://github.com/adam-lowe/19-User-Directory)
