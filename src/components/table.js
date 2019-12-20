@@ -3,40 +3,80 @@ import BootstrapTable from 'react-bootstrap-table-next';
 import filterFactory, { textFilter } from 'react-bootstrap-table2-filter';
 
 const products = [
-  {
-  id: 1,
+{
+  id: Math.floor(Math.random()*899999)+100000,
   name: "Milk",
-  price: 20
+  branch: 20
 },
-  {
-  id: 2,
-  name: "Cereal",
-  price: 16.22
+{
+  id: Math.floor(Math.random()*899999)+100000,
+  name: "Milk",
+  branch: 20
 },
-  {
-  id: 4,
-  name: "Apple",
-  price: 6.89
+{
+  id: Math.floor(Math.random()*899999)+100000,
+  name: "Milk",
+  branch: 20
 },
-  {
-  id: 3,
-  name: "Car",
-  price: 234
-}
+{
+  id: Math.floor(Math.random()*899999)+100000,
+  name: "Milk",
+  branch: 20
+},
+{
+  id: Math.floor(Math.random()*899999)+100000,
+  name: "Milk",
+  branch: 20
+},
+{
+  id: Math.floor(Math.random()*899999)+100000,
+  name: "Milk",
+  branch: 20
+},
+{
+  id: Math.floor(Math.random()*899999)+100000,
+  name: "Milk",
+  branch: 20
+},
+{
+  id: Math.floor(Math.random()*899999)+100000,
+  name: "Milk",
+  branch: 20
+},
+{
+  id: Math.floor(Math.random()*899999)+100000,
+  name: "Milk",
+  branch: 20
+},
+{
+  id: Math.floor(Math.random()*899999)+100000,
+  name: "Milk",
+  branch: 20
+},
+{
+  id: Math.floor(Math.random()*899999)+100000,
+  name: "Milk",
+  branch: 20
+},
+{
+  id: Math.floor(Math.random()*899999)+100000,
+  name: "Milk",
+  branch: 20
+},
 ];
  
 const columns = [{
   dataField: 'id',
-  text: 'Product ID',
+  text: 'Employee ID',
   sort: true
 }, {
   dataField: 'name',
-  text: 'Product Name',
+  text: 'Employee Name',
   sort: true,
   filter: textFilter()
 }, {
-  dataField: 'price',
-  text: 'Product Price'
+  dataField: 'branch',
+  text: 'Employee Branch'
 }];
  
 export default () =>
